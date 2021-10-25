@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:ital,wght@0,300;0,500;1,400&family=Odor+Mean+Chey&family=Ultra&display=swap");
+body {
+  height: 100%;
+  background: url(./pexels-pixabay-264537.jpg);
+}
+
+.section-center {
+  background: white;
+  height: auto;
+  width: 40%;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 5%;
+  padding: 15px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.514);
+}
+
+.grocery-form {
+  text-align: center;
+}
+
+.grocery-form h1 {
+  font-family: "Bree Serif", serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.grocery-container {
+  text-align: center;
+}
+
+.grocery {
+  background: rgba(135, 235, 235, 0.226);
+  width: 80%;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  height: 24px;
+  font-family: "Karla", sans-serif;
+}
+
+.submit-btn {
+  background: rgba(135, 232, 235, 0.616);
+  border: 2px solid transparent;
+  border-radius: 3px;
+  height: 30px;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+}
+
+.clear-btn {
+  background: transparent;
+  border: 0px solid transparent;
+  color: red;
+  margin-top: 40px;
+}
+
+.clear-btn:hover {
+  background: rgba(233, 203, 203, 0.899);
+  border: 1px solid rgba(243, 135, 135, 0.158);
+  color: red;
+  border-radius: 3px;
+}
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin-top: 20px;
+  height: 20px;
+  padding: 0 60px 0 60px;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+}
+
+.grocery-item button {
+  margin-top: 28px;
+  border: transparent;
+  background: transparent;
+}
+
+.edit-btn {
+  color: rgb(74, 245, 131);
+}
+
+.edit-btn:hover {
+  color: rgba(107, 247, 154, 0.625);
+}
+
+.delete-btn {
+  color: rgb(253, 95, 95);
+}
+
+.delete-btn:hover {
+  color: rgba(253, 95, 95, 0.625);
+}
+
+.alert {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
